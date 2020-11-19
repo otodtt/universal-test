@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.bold {
+    font-weight: bolder;
+}
+body {
+    font-family: Roboto , sans-serif;
+    font-display: swap;
+    color: #202020;
+
+    .cdk-overlay-pane {
+        max-width: 90vw !important
+    }
+}
+
+.lb-image{
+    max-width: inherit !important;
+    width: 1px;
+    height: 1px;
+}
+

@@ -1,0 +1,38 @@
+<mat-dialog-content>
+  <mat-card class="example-card card-top">
+    <mat-card-header>
+      <mat-card-title>
+        Ако желаете да се свържете с мен, пишете ми и не се колебайте!
+      </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <ul>
+        <li><p><span class="atention" >Внимание:</span> Препоръчително е писането на кирилица.</p></li>
+        <li><p>Ще се радвам да ми пишете и да науча за Вашето мнение и впечатления от сайта.</p></li>
+        <li><p>Приемам всякакви конструктивни предложения и идеи за неговото подобрение и развитие.</p></li>
+        <li>
+          <p class="p_icon">
+            Приемам критики и похвали (особено похвали!).
+            <span aria-label="Smile icon" style='font-size: 1.5em;'>&#9786;</span>
+          </p>
+        </li>
+        <li><p>Свържете се с мен, ако забележите технически грешки или грешна информация.</p></li>
+        <li><p>Пишете ми, ако желаете да помогнете (всякакъв вид помощ) или да рекламирате в сайта.</p></li>
+      </ul>
+      <br>
+      <p class="not_write">Моля, не ми пишете за:</p>
+      <ul >
+        <li class="li_not_write"><p>За продажба или цени на Продукти за Растителна Защита. За тази цел си има Селскостопански аптеки.</p></li>
+        <li class="li_not_write"><p>За консултации. Агроном съм, но едва ли ще имам време за консултации.</p></li>
+      </ul>
+      <hr>
+      <p class="not_write thanks">Благодаря Ви предварително!</p>
+    </mat-card-content>
+  </mat-card>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-raised-button (click)="onNoClick()" matTooltip="Затвори">
+    <mat-icon aria-label="Назад">power_settings_new</mat-icon>
+    <span> Затвори</span>
+  </button>
+</mat-dialog-actions>

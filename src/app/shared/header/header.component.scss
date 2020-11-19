@@ -1,0 +1,211 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+.example-icon {
+    padding: 0 14px;
+}
+#menu-icon {
+    vertical-align: initial;
+}
+/*================================
+    NAVIGATION
+=================================*/
+$green-transparent: rgba(140, 195, 74, 0.25);
+$green: rgb(13, 131, 2);
+
+$white: rgb(255, 255, 255);
+$gray: rgb(100, 100, 100);
+
+.mat-toolbar {
+    background: $green-transparent;
+    .logo-text{
+      font-weight: bolder;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 1.3em;
+    }
+    .prz-text {
+      color: white;
+    }
+    .bg-text {
+      color: #1b660b;
+    }
+
+}
+.mat-nav-list {
+    padding-top: 0 !important;
+}
+.a-top {
+    color: $white;
+    font-size: 14px;
+
+}
+.mat-list-base .mat-list-item {
+    width: initial !important;
+    height: 48px !important;
+}
+
+
+::ng-deep .my-home-icon {
+    margin-top: 10px;
+}
+
+.nav-list {
+    float: left;
+    position: relative;
+
+    .mat-icon-button {
+        width: 20px;
+        flex-shrink: initial;
+        color: $white;
+    }
+    .nav-dropdown {
+        z-index: 999;
+        display: none;
+        position: absolute;
+        top:48px;
+        left: 0;
+        padding: 5px 10px 0;
+        background: #fafafa;
+        border-top: 1px solid rgb(190, 190, 190);
+        border-bottom: 2px solid rgb(190, 190, 190);
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        .sub-menu {
+            height: 40px;
+            border-bottom: 1px solid rgb(190, 190, 190);
+            .a-bottom {
+                color: $gray;
+                font-size: 13px;
+            }
+            .a-bottom:hover {
+                color: $green;
+            }
+            .bottom-active {
+                color: $green;
+            }
+        }
+        .sub-menu:last-child {
+            border-bottom: none;
+        }
+    }
+    /* ===============================================
+      Решение ако се скрива дропдаун менюто в ляво
+      В компонента се добавя клас в зависимост от избора Виж компонента!
+    =========================================*/
+    .practices {
+        left: -80px;
+    }
+}
+.nav-list:hover {
+    background: $white;
+    .a-top {
+        color: $green
+    }
+    .mat-icon-button {
+        color: $green
+    }
+}
+.nav-list:hover .nav-dropdown {
+    display: block;
+}
+.nav-list-active {
+    background: $white;
+    .active-non-link, .btn-active {
+        color: $green
+    }
+}
+.nav-list-active .active {
+    color: $green;
+}
+
+
+#navigation-button {
+    background: #33691E !important;
+    color: $white;
+}
+/*----------- ФИКСИРАНА НАВИГАЦИЯ ------------*/
+.navbar-fixed-top {
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    background-color: $white;
+    border-bottom: 1px solid $green;
+    transition: all .5s;
+    .a-top {
+        color: $gray;
+    }
+    .mat-icon-button {
+        color: $gray;
+    }
+    #navigation-button {
+        background-color: #8bc34a !important;
+        color: #000000;
+    }
+    .nav-list-active .active {
+        color: $green;
+    }
+    .nav-list-active {
+        background: $white;
+        .active-non-link, .btn-active {
+            color: $green
+        }
+    }
+    .prz-text {
+      color:#646464;
+    }
+}
+/*================================
+    КРАЙ NAVIGATION
+=================================*/
+
+/*================================
+    HEADER AND LOGO
+=================================*/
+.p-in-header {
+    display: inline;
+    color: rgb(255, 255, 255)
+}
+#aa-practices, #aa-documents, #aa-products, #aa-crops, #aa-contacts,
+#aa-management, #aa-phases, #aa-formulations, #aa-registers, #aa-legislation  {
+    height: 200px;
+    background-size: cover;
+    padding-bottom: 0 !important;
+    font-weight: normal;
+}
+#header-email {
+    border-bottom: 1px solid white;
+    color: white;
+    height: 30px;
+    padding-top: 0  !important;
+    .email {
+        margin-left: 16px;
+        font-size: 17px;
+    }
+}
+
+.bredacrumb {
+    padding-top: 20px;
+    text-align: center;
+    .bredacrumb-link {
+        text-decoration: none;
+        color: $white;
+    }
+}
+.p-up {
+    font-size: 1.5em;
+}
+.p-down {
+    font-size: 1em
+}
+
+.image-logo {
+  object-fit: contain;
+//   width: 50px;
+//   height: 50px;
+  margin-right: 5px;
+}
+
+/*================================
+    END HEADER AND LOGO
+=================================*/
+
