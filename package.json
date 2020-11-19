@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node main.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -14,7 +14,7 @@
     "compile:server": "tsc -p server.tsconfig.json",
     "generate:prerender": "cd dist && node prerender",
     "serve:prerender": "cd dist/browser && http-server",
-    "serve:ssr": "node dist/server"
+    "serve:ssr": "node dist/server",
   },
   "start:heroku": "node dist/universal-test/server",
   "postinstall": "npm run build:ssr",
