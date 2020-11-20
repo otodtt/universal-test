@@ -34,7 +34,7 @@
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.js",
-              "node_modules/lightbox2/dist/js/lightbox.min.js",
+              "src/assets/lightbox.min.js",
 			        "node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
           },
