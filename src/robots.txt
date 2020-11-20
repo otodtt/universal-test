@@ -1,3 +1,4 @@
 # robots.txt генерирани от atozseotools.com
+Sitemap: https://www.heroku.com/sitemap.xml
 User-agent: *
 Disallow: 
