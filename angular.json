@@ -25,7 +25,14 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/robots.txt",
+              "src/sitemap.xml",
+              {
+                "glob": "robots.txt",
+                "input": "src/assets",
+                "output": "./"
+              }
             ],
             "styles": [
               "src/styles.scss",
