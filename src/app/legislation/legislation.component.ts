@@ -11,7 +11,8 @@ import { SeoService } from '../common/services/SeoService';
 export class LegislationComponent implements OnInit {
 
   headerId = 'aa-legislation';
-  breadcrumbTitle = 'ЗАКОНИ';
+
+  breadcrumbTitle = 'ЗАКОНОДАТЕЛСТВО';
   breadcrumbName = 'Закони';
 
   private title = 'ПРЗ | Законодателство';
@@ -22,16 +23,11 @@ export class LegislationComponent implements OnInit {
     private changeBreadcrumb: ChangeBreadcrumbService,
     private seoService: SeoService,
 ) {
-  this.changeBreadcrumb.emitTitle(this.breadcrumbTitle);
-  this.changeBreadcrumb.emitName(this.breadcrumbName);
-  this.changeBreadcrumb.emitId(this.headerId);
-
-  this.seoService.addTitle(this.title);
-  this.seoService.setNoKeywordsMeta(this.description);
+    this.seoService.addTitle(this.title);
+    this.seoService.setNoKeywordsMeta(this.description);
 }
 
   ngOnInit(): void {
-    this.changeBreadcrumb.emitTitle(this.breadcrumbTitle);
     this.changeBreadcrumb.emitName(this.breadcrumbName);
     this.changeBreadcrumb.emitId(this.headerId);
   }

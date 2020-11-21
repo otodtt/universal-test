@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
 import { CropsComponent } from './crops/crops.component';
@@ -17,6 +17,7 @@ export const routes: Routes = [
   { path: 'crops', component: CropsComponent },
   // { path: 'practices', loadChildren: './practices/practices.module#PracticesModule' },
   { path: 'practices', loadChildren: () => import('./practices/practices.module').then(m => m.PracticesModule) },
+  // { path: 'phases', loadChildren: './phases/phases.module#PhasesModule' },
   { path: 'phases', loadChildren: () => import('./phases/phases.module').then(m => m.PhasesModule) },
   // { path: 'thresholds', loadChildren: './thresholds/thresholds.module#ThresholdsModule' },
   { path: 'thresholds', loadChildren: () => import('./thresholds/thresholds.module').then(m => m.ThresholdsModule) },
@@ -28,6 +29,7 @@ export const routes: Routes = [
   { path: 'contact', component: ContactsComponent },
   { path: '**', component: NotFoundComponent }
 ];
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, {

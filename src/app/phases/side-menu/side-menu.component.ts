@@ -9,11 +9,11 @@ import { ResizeService } from '../../common/services/ResizeService';
 
 
 @Component({
-  selector: 'prz-phases-side-menu',
-  templateUrl: './phases-side-menu.component.html',
-  styleUrls: ['./phases-side-menu.component.scss']
+  selector: 'prz-side-menu',
+  templateUrl: './side-menu.component.html',
+  styleUrls: ['./side-menu.component.scss']
 })
-export class PhasesSideMenuComponent implements OnInit, AfterViewInit, OnDestroy {
+export class SideMenuComponent implements OnInit, AfterViewInit, OnDestroy {
   public pages = pages;
   public isOpenPanel = false;
   public isActiveClass = true;

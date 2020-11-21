@@ -13,17 +13,17 @@ const pages = [
             {
                 id: 0,
                 subName: 'Житни',
-                link: 'grains/cereals'
+                link: 'cereals'
             },
             {
                 id: 1,
                 subName: 'Царевица',
-                link: 'grains/maize'
+                link: 'maize'
             },
             {
                 id: 2,
                 subName: 'Ориз',
-                link: 'grains/rice'
+                link: 'rice'
             }
         ],
     },
@@ -35,22 +35,22 @@ const pages = [
             {
                 id: 0,
                 subName: 'Фасул',
-                link: 'beans/bean'
+                link: 'bean'
             },
             {
                 id: 1,
                 subName: 'Бакла',
-                link: 'beans/faba-bean'
+                link: 'faba-bean'
             },
             {
                 id: 2,
                 subName: 'Грах',
-                link: 'beans/pea'
+                link: 'pea'
             },
             {
                 id: 3,
                 subName: 'Соя',
-                link: 'beans/soybean'
+                link: 'soybean'
             }
         ],
     },
@@ -63,27 +63,27 @@ const pages = [
             {
                 id: 0,
                 subName: 'Слънчоглед',
-                link: 'technical/sunflower'
+                link: 'sunflower'
             },
             {
                 id: 1,
                 subName: 'Рапица',
-                link: 'technical/oilseed-rape'
+                link: 'oilseed-rape'
             },
             {
                 id: 2,
                 subName: 'Цвекло',
-                link: 'technical/beet'
+                link: 'beet'
             },
             {
                 id: 3,
                 subName: 'Хмел',
-                link: 'technical/hop'
+                link: 'hop'
             },
             {
                 id: 4,
                 subName: 'Памук',
-                link: 'technical/cotton'
+                link: 'cotton'
             },
         ],
     },
@@ -95,42 +95,42 @@ const pages = [
             {
                 id: 0,
                 subName: 'Картофи',
-                link: 'vegetables/potato'
+                link: 'potato'
             },
             {
                 id: 1,
                 subName: 'Домати, патладжан, пипер',
-                link: 'vegetables/solanaceous-fruits'
+                link: 'solanaceous-fruits'
             },
             {
                 id: 2,
                 subName: 'Тиквови култури',
-                link: 'vegetables/cucurbits'
+                link: 'cucurbits'
             },
             {
                 id: 3,
                 subName: 'Зелеви култури',
-                link: 'vegetables/brassica'
+                link: 'brassica'
             },
             {
                 id: 4,
                 subName: 'Листни зеленчуци',
-                link: 'vegetables/leaf-vegetables'
+                link: 'leaf-vegetables'
             },
             {
                 id: 5,
                 subName: 'Други Зелеви',
-                link: 'vegetables/other-brassica'
+                link: 'other-brassica'
             },
             {
                 id: 6,
                 subName: 'Коренови и стъблени',
-                link: 'vegetables/root-and-stem'
+                link: 'root-and-stem'
             },
             {
                 id: 7,
                 subName: 'Лукови култури',
-                link: 'vegetables/bulb-vegetables'
+                link: 'bulb-vegetables'
             }
         ],
     },
@@ -142,12 +142,12 @@ const pages = [
             {
                 id: 0,
                 subName: 'Семкови овощни видове',
-                link: 'fruids/pome-fruit'
+                link: 'pome-fruit'
             },
             {
                 id: 1,
                 subName: 'Костилкови овощни видове',
-                link: 'fruids/stone-fruit'
+                link: 'stone-fruit'
             }
         ],
     },
@@ -159,12 +159,12 @@ const pages = [
             {
                 id: 0,
                 subName: 'Ягода',
-                link: 'strawberry/fragaria'
+                link: 'strawberry'
             },
             {
                 id: 1,
                 subName: 'Касис',
-                link: 'strawberry/currants'
+                link: 'currants'
             }
         ],
     },

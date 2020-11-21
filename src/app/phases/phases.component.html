@@ -1,9 +1,9 @@
 <mat-drawer-container class="example-container">
     <mat-drawer
         #sidenav
-        [mode]="mode"
+        [mode]="mode" 
         [opened]="!openedQuery.matches">
-        <prz-phases-side-menu (navClose)="sidenav.close()"></prz-phases-side-menu>
+        <prz-side-menu (navClose)="sidenav.close()"></prz-side-menu>
     </mat-drawer>
     <mat-drawer-content>
         <mat-card class="example-header">
