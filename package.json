@@ -11,8 +11,7 @@
     "dev:ssr": "ng run universal-test:serve-ssr",
     "serve:ssr": "node dist/universal-test/server/main.js",
     "build:ssr": "ng build --prod && ng run universal-test:server:production",
-    "prerender": "ng run universal-test:prerender",
-    "start:heroku": "node dist/universal-test/server"
+    "prerender": "ng run universal-test:prerender"
   },
   "pre-commit": [],
   "private": true,
