@@ -10,7 +10,12 @@ import { existsSync } from 'fs';
 
 // The Express app is exported so that it can be used by serverless Functions.
 export function app(): express.Express {
+  // Аз го добавам тест
+  const compression = require('compression');
   const server = express();
+  // Аз го добавам тест
+  server.use(compression());
+
   const distFolder = join(process.cwd(), 'dist/universal-test/browser');
   const indexHtml = existsSync(join(distFolder, 'index.original.html')) ? 'index.original.html' : 'index';
 
