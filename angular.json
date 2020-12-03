@@ -49,14 +49,9 @@
             ],
             "styles": [
               "src/styles.scss",
-              "src/theme.scss",
               "node_modules/lightbox2/dist/css/lightbox.min.css"
             ],
-            "scripts": [
-              "node_modules/jquery/dist/jquery.js",
-              "node_modules/lightbox2/dist/js/lightbox.min.js",
-			        "node_modules/bootstrap/dist/js/bootstrap.min.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {

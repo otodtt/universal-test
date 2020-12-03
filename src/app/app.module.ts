@@ -1,29 +1,21 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-
-import { RecaptchaFormsModule, RecaptchaModule, RecaptchaSettings } from 'ng-recaptcha';
 
 /** Firebase */
-import { firebase } from '../environments/firebase';
-
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
-
-import { AngularFireDatabase } from '@angular/fire/database';
+import { firebase } from '../environments/firebase';
 
 /** Router */
 import { AppRoutingModul } from './app-routing.module';
 
-/** Services */
-import { ChangeBreadcrumbService } from './common/services/changeBreadcrumb.service';
-import { ResizeService } from './common/services/ResizeService';
-import { SeoService } from './common/services/SeoService';
+/** Services те са в core.module */
 
 /** Modules */
-import { MaterialModule } from './common/material/material.module';
 import { ShareComponentsModule } from './common/share.components.module';
+import { HomeMaterialModule } from './common/material/home.material.module';
+import { CoreModule } from './core.module';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './shared/footer/footer.component';
@@ -33,12 +25,6 @@ import { ScrollButtonComponent } from './shared/scroll-button/scroll-button.comp
 
 /** Pages */
 import { HomeComponent } from './home/home.component';
-import { CropsComponent } from './crops/crops.component';
-import { DocumentsComponent } from './documents/documents.component';
-import { ContactsComponent } from './contacts/contacts.component';
-import { FormulationsComponent } from './formulations/formulations.component';
-import { LegislationComponent } from './legislation/legislation.component';
-import { DialogContactsComponent } from './contacts/dialog-contacts/dialog-contacts.component';
 
 @NgModule({
   declarations: [
@@ -47,35 +33,20 @@ import { DialogContactsComponent } from './contacts/dialog-contacts/dialog-conta
     SideNavComponent,
     ScrollButtonComponent,
     HomeComponent,
-    CropsComponent,
-    DocumentsComponent,
-    ContactsComponent,
-    FormulationsComponent,
     NotFoundComponent,
-    LegislationComponent,
-    DialogContactsComponent,
   ],
   imports: [
-    BrowserModule.withServerTransition({ appId: 'serverApp' }),
-    MaterialModule,
+    BrowserModule,
     BrowserAnimationsModule,
     ShareComponentsModule,
     AppRoutingModul,
     AngularFireModule,
     AngularFireModule.initializeApp(firebase.firebase),
     AngularFireDatabaseModule,
-    FormsModule,
-    ReactiveFormsModule,
-    RecaptchaModule,
-    RecaptchaFormsModule,
+    CoreModule,
+    HomeMaterialModule
   ],
-  providers: [
-    ChangeBreadcrumbService,
-    ResizeService,
-    SeoService,
-    AngularFireDatabase,
-  ],
-  entryComponents: [ DialogContactsComponent ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
