@@ -44,7 +44,7 @@ import { HomeComponent } from './home/home.component';
     AngularFireModule.initializeApp(firebase.firebase),
     AngularFireDatabaseModule,
     CoreModule,
-    HomeMaterialModule
+    HomeMaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
