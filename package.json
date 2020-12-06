@@ -3,16 +3,20 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
+    "start": "node main.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "dev:ssr": "ng run universal-test:serve-ssr",
-    "serve:ssr": "node dist/universal-test/server/main.js",
     "build:ssr": "ng build --prod && ng run universal-test:server:production",
     "prerender": "ng run universal-test:prerender",
-    "postinstall": "ng build -prod --aot"
+    "build:client-and-server-bundles": "ng build --prod --build-optimizer && ng run universal-test:server:production",
+    "build:prerender": "npm run build:client-and-server-bundles && npm run compile:server && npm run generate:prerender",
+    "compile:server": "tsc -p tsconfig.server.json",
+    "generate:prerender": "cd dist/universal-test && node prerender",
+    "serve:prerender": "cd dist/universal-test/browser && http-server",
+    "serve:ssr": "node dist/universal-test/server/main.js"
   },
   "pre-commit": [],
   "private": true,
