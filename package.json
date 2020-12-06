@@ -16,7 +16,10 @@
     "compile:server": "tsc -p tsconfig.server.json",
     "generate:prerender": "cd dist/universal-test && node prerender",
     "serve:prerender": "cd dist/universal-test/browser && http-server",
-    "serve:ssr": "node dist/universal-test/server/main.js"
+    "serve:ssr": "node dist/universal-test/server",
+    "heroku-postbuild": "ng build --prod --build-optimizer",
+    "start:heroku": "node dist/universal-test/server",
+    "postinstall": "npm run build:ssr"
   },
   "pre-commit": [],
   "private": true,
