@@ -63,7 +63,7 @@ export const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {preloadingStrategy: CustomPreloadingStrategy})],
+  imports: [RouterModule.forRoot(routes, { preloadingStrategy: CustomPreloadingStrategy, initialNavigation: 'enabled' })],
   exports: [RouterModule]
 })
 

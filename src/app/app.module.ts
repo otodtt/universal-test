@@ -36,7 +36,7 @@ import { HomeComponent } from './home/home.component';
     NotFoundComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     BrowserAnimationsModule,
     ShareComponentsModule,
     AppRoutingModul,
@@ -44,7 +44,7 @@ import { HomeComponent } from './home/home.component';
     AngularFireModule.initializeApp(firebase.firebase),
     AngularFireDatabaseModule,
     CoreModule,
-    HomeMaterialModule,
+    HomeMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
