@@ -13,7 +13,7 @@ import { CustomPreloadingStrategy } from './custom-preloading.service';
     ResizeService,
     SeoService,
     AngularFireDatabase,
-    CustomPreloadingStrategy
+    CustomPreloadingStrategy,
   ]
 })
 export class CoreModule {}

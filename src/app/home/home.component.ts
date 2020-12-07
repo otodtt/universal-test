@@ -41,11 +41,10 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
   constructor(
     private changeBreadcrumb: ChangeBreadcrumbService,
-    private seoService: SeoService
+    private seoService: SeoService,
   ) {
     this.seoService.addTitle(this.title);
     this.seoService.setMeta(this.description, this.keywords);
-
   }
 
   ngOnInit(): any {
