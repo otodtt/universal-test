@@ -8,8 +8,129 @@
 
 
 <url>
-  <loc>https://prz-test.web.app/</loc>
-  <lastmod>2019-03-19T07:49:00+00:00</lastmod>
+  <loc>https://przbg.herokuapp.com/</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://przbg.herokuapp.com/home</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://przbg.herokuapp.com/products/fungicides</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://przbg.herokuapp.com/products/insecticides</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://przbg.herokuapp.com/products/acaricides</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://przbg.herokuapp.com/products/nematocides</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://przbg.herokuapp.com/products/rodenticides</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://przbg.herokuapp.com/products/limatsides</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://przbg.herokuapp.com/products/repellents</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://przbg.herokuapp.com/products/pheromones</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://przbg.herokuapp.com/products/herbicides</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://przbg.herokuapp.com/products/desiccants</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://przbg.herokuapp.com/products/regulators</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://przbg.herokuapp.com/registers/firms</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://przbg.herokuapp.com/registers/substances</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://przbg.herokuapp.com/registers/adjuvants</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://przbg.herokuapp.com/registers/parallel-trade</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://przbg.herokuapp.com/crops</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://przbg.herokuapp.com/legislation</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://przbg.herokuapp.com/practices</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://przbg.herokuapp.com/phases</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://przbg.herokuapp.com/thresholds</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://przbg.herokuapp.com/formulations</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://przbg.herokuapp.com/documents</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://przbg.herokuapp.com/contact</loc>
+  <lastmod>2020-12-07T11:09:21+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
