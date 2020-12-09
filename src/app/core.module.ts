@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { ChangeBreadcrumbService } from './common/services/changeBreadcrumb.service';
 import { ResizeService } from './common/services/ResizeService';
 import { SeoService } from './common/services/SeoService';
-import { AngularFireDatabase } from '@angular/fire/database';
 import { CustomPreloadingStrategy } from './custom-preloading.service';
 
 
@@ -12,8 +11,7 @@ import { CustomPreloadingStrategy } from './custom-preloading.service';
     ChangeBreadcrumbService,
     ResizeService,
     SeoService,
-    AngularFireDatabase,
-    CustomPreloadingStrategy,
+    CustomPreloadingStrategy
   ]
 })
 export class CoreModule {}

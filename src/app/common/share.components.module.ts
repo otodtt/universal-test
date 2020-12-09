@@ -4,7 +4,6 @@ import { RouterModule } from '@angular/router';
 
 import { HomeMaterialModule } from './material/home.material.module';
 import { SanitizeHtmlPipe } from '../practices/practices/shared/pipes/keep-html.pipe';
-// import { LazyImgDirective } from '../common/directives/LazyImgDirective';
 
 import { HeaderComponent } from '../shared/header/header.component';
 
