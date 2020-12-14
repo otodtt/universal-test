@@ -30,7 +30,7 @@ import { SideNavComponent } from './shared/side-nav/side-nav.component';
     NotFoundComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     BrowserAnimationsModule,
     ShareComponentsModule,
     AppRoutingModul,
