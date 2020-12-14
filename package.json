@@ -12,7 +12,6 @@
     "serve:ssr": "node dist/universal-test/server/main.js",
     "build:ssr": "ng build --prod && ng run universal-test:server:production",
     "prerender": "ng run universal-test:prerender",
-     
     "heroku-postbuild": "ng build --prod --build-optimizer",
     "start:heroku": "node dist/universal-test/server",
     "postinstall": "npm run build:ssr"
